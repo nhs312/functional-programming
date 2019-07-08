@@ -15,4 +15,5 @@ class MyModule {
 
   def main(args: Array[String]): Unit =
     println(formatAbs(-42))
+    println(formatAbs(11))
 }
