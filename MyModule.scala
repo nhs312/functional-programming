@@ -8,6 +8,7 @@ class MyModule {
 
   private def formatAbs(x: Int) = {
     val msg = "The absolute value of %d is %d"
+    val alert_msg = "This is alert message"
     msg.format(x, abs(x))
   }
 
